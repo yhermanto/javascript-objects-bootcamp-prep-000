@@ -2,6 +2,6 @@ var playlist = {
   abon: 'hahaha'
 }
 
-function updatePlaylist(playlist, artistName, songTitle) {
-  playlist[artistName] = songTitle
+function updatePlaylist(playlist, artist, song) {
+  playlist[artist] = song
 }
